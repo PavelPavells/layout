@@ -1,0 +1,110 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid cyan; */
+}
+
+
+/* ============================ HEADER =============================  */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 10vh;
+    width: 100%;
+    border: 1px solid #000000;
+    min-width: 140px;
+}
+
+.header-block-one {
+    display: flex;
+    align-items: center;
+    margin: 1vh 0;
+    /* border: 1px solid red; */
+}
+
+.header-block-two {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid orange; */
+    margin: 1vh 0;
+}
+
+.header-block-three {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid green; */
+    margin: 1vh 0;
+}
+
+.header-block-four {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid purple; */
+    margin: 1vh 0;
+}
+
+
+/* ============================ MAIN =============================  */
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid brown;
+    width: 100%;
+    height: 50vh;
+    margin-top: 1vh;
+}
+
+.main-block-one {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    margin: 1vh 0;
+}
+
+.main-block-two {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid lightcoral; */
+    margin: 1vh 0;
+}
+
+
+/* ============================ FOOTER =============================  */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid darkgreen; */
+    background-color: #404040;
+    width: 100%;
+    height: auto;
+    margin-top: 1vh;
+}
+
+.footer-block-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid darkred; */
+    margin: 1vh 1vh;
+    width: 40%;
+}
+
+.footer-block-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid lightgreen; */
+    margin: 1vh 1vh;
+    width: 40%;
+}
